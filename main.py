@@ -4,6 +4,7 @@ from ui import VotingApp
 from voting import VoteManager
 
 def main() -> None:
+    """Starts the voting application with custom styles and GUI."""
     app = QApplication(sys.argv)
 
     
